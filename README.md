@@ -22,13 +22,13 @@ End the program and close the output image windows.
 
 ## PROGRAM:
 
-Developed By : Shrruthilaya G
+Developed By : Gunaseelan G
 
-Register Number : 212221230097
+Register Number : 212221230031
 # i) Original Image
 ```
 import cv2
-uni = cv2.imread('friends.png')
+uni = cv2.imread('lamboo.jpg')
 cv2.imshow('Original image',uni)
 cv2.waitKey(0)
 cv2. destroyAllWindows()
@@ -36,7 +36,7 @@ cv2. destroyAllWindows()
 # ii) Convert BGR to HSV 
 ```
 import cv2
-uni = cv2.imread('friends.png')
+uni = cv2.imread('lamboo.jpg')
 hsv_image = cv2.cvtColor(uni, cv2.COLOR_BGR2HSV)
 cv2.imshow('BGR2HSV' ,hsv_image )
 cv2.waitKey(0)
@@ -45,7 +45,7 @@ cv2. destroyAllWindows()
 # iii)Convert BGR to GRAY
 ```
 import cv2
-uni = cv2.imread('friends.png')
+uni = cv2.imread('lamboo.jpg')
 gray_image = cv2.cvtColor(uni, cv2.COLOR_BGR2GRAY)
 cv2.imshow( 'BGR2GRAY', gray_image)
 cv2.waitKey(0)
@@ -54,7 +54,7 @@ cv2. destroyAllWindows()
 # iv) Convert RGB to HSV
 ```
 import cv2
-uni = cv2.imread('friends.png')
+uni = cv2.imread('lamboo.jpg')
 hsv_image = cv2.cvtColor(uni, cv2.COLOR_RGB2HSV)
 cv2.imshow('RGB2HSV', hsv_image)
 cv2.waitKey(0)
@@ -63,7 +63,7 @@ cv2. destroyAllWindows()
 # v)  Convert RGB to GRAY
 ```
 import cv2
-uni = cv2.imread('friends.png')
+uni = cv2.imread('flamboo.jpg')
 gray_image1 = cv2.cvtColor (uni, cv2.COLOR_RGB2GRAY)
 cv2.imshow('RGB2GRAY', gray_image1)
 cv2.waitKey(0)
@@ -72,7 +72,7 @@ cv2. destroyAllWindows()
 # vi) Convert HSV to RGB
 ```
 import cv2
-uni = cv2.imread('friends.png')
+uni = cv2.imread('lamboo.jpg')
 RGB_image = cv2.cvtColor(uni,cv2.COLOR_HSV2RGB)
 cv2.imshow('HSV to RGB',RGB_image )
 cv2.waitKey(0)
@@ -81,7 +81,7 @@ cv2.destroyAllWindows()
 # vii)  Convert HSV to BGR
 ```
 import cv2
-uni = cv2.imread('friends.png')
+uni = cv2.imread('lamboo.jpg')
 BGR_image = cv2.cvtColor(uni,cv2.COLOR_HSV2BGR)
 cv2.imshow('HSV to BGR',BGR_image)
 cv2.waitKey(0)
@@ -90,7 +90,7 @@ cv2.destroyAllWindows()
 # viii)  Convert RGB to YCrCb
 ```
 import cv2
-uni = cv2.imread('friends.png')
+uni = cv2.imread('lamboo.jpg')
 YCrCb_image = cv2.cvtColor(uni, cv2.COLOR_RGB2YCrCb)
 cv2.imshow('RGB2YCrCb',YCrCb_image)
 cv2.waitKey(0)
@@ -99,7 +99,7 @@ cv2.destroyAllWindows()
 # ix) Convert BGR to YCrCb
 ```
 import cv2
-uni = cv2.imread('friends.png')
+uni = cv2.imread('lamboo.jpg')
 YCrCb_image = cv2.cvtColor(uni, cv2.COLOR_BGR2YCrCb)
 cv2.imshow('BGR2YCrCb',YCrCb_image)
 cv2.waitKey(0)
@@ -108,7 +108,7 @@ cv2.destroyAllWindows()
 # x) Merge RGB Image
 ```
 import cv2
-uni = cv2.imread('friends.png')
+uni = cv2.imread('lamboo.jpg')
 blue=uni[:,:,0]
 green=uni[:,:,1]
 red=uni[:,:,2]
@@ -124,7 +124,7 @@ cv2.destoryAllWindows()
 # xi) Split HSV Image
 ```
 import cv2
-uni = cv2.imread('friends.png')
+uni = cv2.imread('lamboo.jpg')
 hsv=cv2.cvtColor(uni,cv2.COLOR_BGR2HSV)
 h,s,v=cv2.split(hsv)
 cv2.imshow("Hue-image",h)
@@ -174,11 +174,28 @@ cv2.destoryAllWindows()
 
 
 ### x) Merge RGB Image
-![](output10.png)
+
+![rchannel](https://user-images.githubusercontent.com/93427255/228011664-2ed69ee7-8d01-4eaf-99d6-50843d3559d3.png)
+
+![gchannel](https://user-images.githubusercontent.com/93427255/228016079-66e30125-c00b-47dd-b09f-7cdb05df8e39.png)
+
+![bchannel](https://user-images.githubusercontent.com/93427255/228014963-9204e65a-9198-46a7-b39c-fd5975f5cb49.png)
+
+![merged bgr](https://user-images.githubusercontent.com/93427255/228011596-b3a0cf9b-2331-4e7b-8d5e-291308691691.png)
+
 
 
 ### xi) Split HSV Image and xii) Merge HSV Image
-![](output11.png)
+
+![saturation](https://user-images.githubusercontent.com/93427255/228012206-42758cbd-5dff-4bd6-90b2-ede7c4e7b723.png)
+
+![hue](https://user-images.githubusercontent.com/93427255/228016128-20edd335-72f7-4d5f-80ec-752fc0e2c86e.png)
+
+![grayimg](https://user-images.githubusercontent.com/93427255/228016151-deeca302-f8c6-417c-b88f-5c86b49ae692.png)
+
+![lastone](https://user-images.githubusercontent.com/93427255/228016167-362ea6fb-771e-4d55-a463-9313d1d8995a.png)
+
+
 
 ## RESULT:
 Thus the color conversion was performed between RGB, HSV and YCbCr color models.
