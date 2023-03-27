@@ -140,37 +140,43 @@ cv2.destoryAllWindows()
 ```
 ## OUTPUT:
 ### i) Original Image
-![](output1.png)
+![output1](https://user-images.githubusercontent.com/93427255/228016838-b5c8a950-a8b8-4245-8d18-12d6753fb3e3.png)
+
 
 ### ii) Convert BGR to HSV
-![](output2.png)
+![output2](https://user-images.githubusercontent.com/93427255/228016901-893c6da5-45b0-4fbf-85a5-08bff5e1c47b.png)
+
 
 ### iii)Convert BGR to GRAY
-![](output3.png)
+![output3](https://user-images.githubusercontent.com/93427255/228016942-bfbc9ae3-1e3b-4359-abcb-b8698ca83bc9.png)
 
 
 ### iv) Convert RGB to HSV
-![](output4.png)
+![output4](https://user-images.githubusercontent.com/93427255/228016963-78c3da7c-d905-46ff-9776-f8a5aa38cfbb.png)
 
 
 ### v) Convert RGB to GRAY
-![](output5.png)
+![output5](https://user-images.githubusercontent.com/93427255/228017032-7855acf9-ae96-44f4-a141-a1112d5521e1.png)
+
 
 
 ### vi) Convert HSV to RGB
-![](output6.png)
+![output6](https://user-images.githubusercontent.com/93427255/228017063-0acf87f1-c141-4cd4-bcba-7efec5020e5b.png)
+
 
 
 ### vii) Convert HSV to BGR
-![](output7.png)
+![output7](https://user-images.githubusercontent.com/93427255/228017094-b002f27e-4c17-400d-afc5-fa8f2c65d19e.png)
+
 
 
 ### viii) Convert RGB to YCrCb
-![](output8.png)
+![output8](https://user-images.githubusercontent.com/93427255/228017125-db247460-6f6a-4d5c-aa9f-0ce3abe418ec.png)
+
 
 
 ### ix) Convert BGR to YCrCb
-![](output9.png)
+![output9](https://user-images.githubusercontent.com/93427255/228017158-044ed1a8-b213-4a65-b9e2-1a8d2c40d5a8.png)
 
 
 ### x) Merge RGB Image
